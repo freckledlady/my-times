@@ -1,0 +1,106 @@
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  align-items: center;
+}
+
+.header img {
+  padding-right: 10px;
+}
+
+.header p {
+  color: MediumAquamarine;
+}
+
+nav {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  min-height: 1000px;
+}
+
+.left {
+  width: 630px;
+  display: inline-flex;
+  flex-flow: wrap row;
+  align-content: space-around;
+  justify-content: space-between;
+
+}
+
+.middle {
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.right {
+  width: 240px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+div {
+  border: 1px solid black;
+}
+
+#phish {
+  background-image: url("./images/champagne.png");
+  font-size: 40px;
+}
+
+#fall {
+  background-image: url("./images/fall.png");
+}
+
+#camera {
+  background-image: url("./images/camera.png");
+}
+
+#cat {
+  background-image: url("./images/cat.png");
+}
+
+.imagediv {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  width: 299px;
+}
+
+
+h2 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.story {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.box {
+  max-width: 300px;
+  flex-grow: 2;
+}
+
+.moo {
+  height: 300px;
+  width: 299px;
+}
