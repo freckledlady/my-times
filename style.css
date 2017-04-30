@@ -29,7 +29,6 @@ nav li {
 .main {
   display: flex;
   justify-content: space-between;
-  min-height: 1000px;
 }
 
 .left {
@@ -38,7 +37,6 @@ nav li {
   flex-flow: wrap row;
   align-content: space-around;
   justify-content: space-between;
-
 }
 
 .middle {
@@ -53,9 +51,7 @@ nav li {
   flex-direction: column;
 }
 
-div {
-  border: 1px solid black;
-}
+
 
 #phish {
   background-image: url("./images/champagne.png");
@@ -79,8 +75,6 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  height: 300px;
-  width: 299px;
 }
 
 
@@ -93,11 +87,11 @@ h2 {
 .story {
   display: inline-flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .box {
   max-width: 300px;
-  flex-grow: 2;
 }
 
 .moo {
